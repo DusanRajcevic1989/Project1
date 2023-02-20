@@ -20,7 +20,7 @@
         <button class="sources">#flexbox</button>
       </ul>
       <img
-        src="Assets/Bookmark/bookmark_img.png"
+        src="/Project1/Assets/Bookmark/bookmarc img.png"
         alt="bookmark img"
         class="bookmark-img"
       />
@@ -35,7 +35,7 @@
         <button class="sources">#flexbox</button>
       </ul>
       <img
-        src="Assets/Bookmark/bookmark_img.png"
+        src="/Project1/Assets/Bookmark/bookmarc img.png"
         alt="bookmark img"
         class="bookmark-img"
       />
@@ -50,7 +50,7 @@
         <button class="sources">#flexbox</button>
       </ul>
       <img
-        src="Assets/Bookmark/bookmark_img.png"
+        src="/Project1/Assets/Bookmark/bookmarc img.png"
         alt="bookmark img"
         class="bookmark-img"
       />
@@ -65,37 +65,12 @@
         <button class="sources">#flexbox</button>
       </ul>
       <img
-        src="Assets/Bookmark/bookmark_img.png"
+        src="/Project1/Assets/Bookmark/bookmarc img.png"
         alt="bookmark img"
         class="bookmark-img"
       />
     </nav>
   </main>
-  <footer>
-    <ul class="footer_img">
-      <li class="footer_home">
-        <a href=""></a>
-        <img
-          src="Assets/Home/house-icon-png-white-32.png"
-          alt="Home page"
-          height="40px"
-        />
-      </li>
-      <li class="footer_bookmark">
-        <a href=""></a>
-        <img
-          src="Assets/Bookmark/bookmark_img.png"
-          alt="Bookmark page"
-          height="40px"
-        />
-      </li>
-      <li class="footer_profile">
-        <img
-          src="Assets/Profile/profile.png"
-          alt="Profile page"
-          height="40px"
-        />
-      </li>
-    </ul>
-  </footer>
+
+  <body></body>
 </html>
