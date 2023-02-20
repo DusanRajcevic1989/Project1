@@ -95,16 +95,5 @@ footer {
   gap: 10px;
   margin: 10px;
   list-style: none;
-}
-
-.footer_home {
-  height: 40px;
-}
-
-.footer_bookmark {
-  height: 40px;
-}
-
-.footer_profile {
   height: 40px;
 }
