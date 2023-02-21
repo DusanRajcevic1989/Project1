@@ -72,10 +72,10 @@ footer {
 
 .footer_img {
   justify-content: space-evenly;
-  display: flex;
   align-items: center;
   gap: 10px;
   margin: 10px;
   list-style: none;
   height: 40px;
+  display: flex;
 }

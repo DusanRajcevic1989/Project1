@@ -25,6 +25,7 @@ main {
   position: relative;
   margin: 5px;
 }
+
 .Question {
   border: 2px solid;
   border-radius: 20px;
@@ -35,13 +36,15 @@ main {
   align-items: center;
   position: relative;
   margin-bottom: 55px;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 .button {
   justify-content: center;
   align-items: center;
-  display: flex;
-  border-radius: 5px;
+
+  border-radius: 20px;
   font-size: 25px;
 }
 
@@ -51,12 +54,6 @@ main {
 
 .button:active {
   color: rgb(226, 207, 207);
-}
-
-.list {
-  display: flex;
-  gap: 10px;
-  padding: 0px;
 }
 
 .bookmark-img {
@@ -70,12 +67,26 @@ main {
 
 .sources {
   background-color: rgb(94, 15, 221);
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 15px;
+  display: flex;
   color: azure;
   height: 25px;
+
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  padding: 5px;
 }
 
+.tags {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  gap: 10px;
+}
 p {
   font-size: 20px;
 }
@@ -90,10 +101,15 @@ footer {
 
 .footer_img {
   justify-content: space-evenly;
-  display: flex;
   align-items: center;
   gap: 10px;
   margin: 10px;
   list-style: none;
   height: 40px;
+  display: flex;
+}
+
+.img {
+  margin-left: 0px;
+  padding-left: 0px;
 }
