@@ -1,3 +1,6 @@
+@import url(bookmark.html/bookmark.css);
+@import url(profile.html/profile.css);
+
 * {
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;

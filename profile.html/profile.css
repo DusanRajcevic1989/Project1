@@ -79,3 +79,8 @@ footer {
   height: 40px;
   display: flex;
 }
+
+.img {
+  margin-left: 0px;
+  padding-left: 0px;
+}
