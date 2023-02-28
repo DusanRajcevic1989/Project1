@@ -1,5 +1,5 @@
-@import url(bookmark.html/bookmark.css);
-@import url(profile.html/profile.css);
+@import url("bookmark.html/bookmark.css");
+@import url("profile.html/profile.css");
 
 * {
   box-sizing: border-box;
