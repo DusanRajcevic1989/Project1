@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <header class="header">
-    <h1>Quiz App</h1>
-  </header>
-  <main>
-    <div class="basics">
-      <img
-        class="myphoto"
-        src="profile.html/Assets/samoyed-dog-puppy-smelling-flower-260nw-468388766.webp"
-        alt="Just me :D"
-      />
-      <p class="name">Dusan Rajcevic</p>
-    </div>
-    <div class="aboutme">
-      <h3>About me</h3>
-      <p>
-        Not much to say about me, actually. Struggeling my way through Full
-        Stack Dev world, learning on the way.
-      </p>
+  <body>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Quiz App</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <header class="header">
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <div class="basics">
+        <img
+          class="myphoto"
+          src="profile.html/Assets/samoyed-dog-puppy-smelling-flower-260nw-468388766.webp"
+          alt="Just me :D"
+        />
+        <p class="name">Dusan Rajcevic</p>
+      </div>
+      <div class="aboutme">
+        <h3>About me</h3>
+        <p>
+          Not much to say about me, actually. Struggeling my way through Full
+          Stack Dev world, learning on the way.
+        </p>
 
-      <p>But I have some cool new friends and teachers to help me with this.</p>
-    </div>
-    <nav class="counters"></nav>
-    <div class="darkmode">
-      Dark mode
-      <label class="switch">
-        <input type="checkbox" checked />
-        <span class="slider round"></span>
-      </label>
-    </div>
-  </main>
-  <footer>
-    <ul class="img footer_img">
-      <li class="footer_home">
-        <a href="index.html"
-          ><img
-            src="Assets/Home/house-icon-png-white-32.png"
-            alt="Home page"
-            height="40px"
-        /></a>
-      </li>
+        <p>
+          But I have some cool new friends and teachers to help me with this.
+        </p>
+      </div>
+      <nav class="counters"></nav>
+      <section class="toggle">
+        Dark Mode
 
-      <li class="img footer_bookmark">
-        <a href="bookmarks.html"
-          ><img
-            src="bookmark.html/Assets/Bookmark/bookmark_img.png"
-            alt="Bookmark page"
-            height="40px"
-        /></a>
-      </li>
+        <label for="toggle-dark-mode"></label>
+        <input type="checkbox" name="dark-mode" id="toggle-dark-mode" />
+      </section>
+    </main>
+    <footer>
+      <ul class="img footer_img">
+        <li class="footer_home">
+          <a href="index.html"
+            ><img
+              src="Assets/Home/house-icon-png-white-32.png"
+              alt="Home page"
+              height="40px"
+          /></a>
+        </li>
 
-      <li class="img footer_profile">
-        <a href="profiles.html"
-          ><img
-            src="profile.html/Assets/profile.png"
-            alt="Profile page"
-            height="40px"
-        /></a>
-      </li>
-    </ul>
-  </footer>
+        <li class="img footer_bookmark">
+          <a href="bookmarks.html"
+            ><img
+              src="bookmark.html/Assets/Bookmark/bookmark_img.png"
+              alt="Bookmark page"
+              height="40px"
+          /></a>
+        </li>
+
+        <li class="img footer_profile">
+          <a href="profiles.html"
+            ><img
+              src="profile.html/Assets/profile.png"
+              alt="Profile page"
+              height="40px"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

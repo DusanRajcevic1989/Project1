@@ -24,6 +24,14 @@ footer {
   bottom: 0px;
 }
 
+.toggle-dark-mode:checked {
+  background-color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
 .footer_img {
   justify-content: space-evenly;
   display: flex;
