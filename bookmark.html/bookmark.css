@@ -22,6 +22,7 @@ footer {
   height: 60px;
   position: fixed;
   bottom: 0px;
+  z-index: 3;
 }
 
 .toggle-dark-mode:checked {
