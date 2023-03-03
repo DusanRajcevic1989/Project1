@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Quiz App</h1>
+    </header>
+    <form data-js="form">
+      <label for="your_question">Your question:</label>
+      <textarea
+        class="user-input"
+        name="your_question"
+        id="your-question"
+        data-js="yourQuestion"
+        cols="30"
+        rows="10"
+        maxlength="150"
+      ></textarea>
+      <small class="character-count"
+        >(<span data-js="amountLeftQ">150</span> characters left)</small
+      >
+      <label for="your_answer">Your answer:</label>
+      <textarea
+        class="user-input"
+        name="your_answer"
+        id="your-answer"
+        data-js="yourAnswer"
+        cols="30"
+        rows="10"
+        maxlength="150"
+      ></textarea>
+      <small class="character-count"
+        >(<span data-js="amountLeftA">150</span> characters left)</small
+      >
+      <label for="tag">Tag:</label>
+      <input type="text" name="tag" class="user-input" maxlength="150" />
+
+      <button class="submit" type="submit">Submit</button>
+    </form>
+  </body>
+  <footer>
+    <ul class="img footer_img">
+      <li class="footer_home">
+        <a href="index.html"
+          ><img
+            src="Assets/Home/house-icon-png-white-32.png"
+            alt="Home page"
+            height="40px"
+        /></a>
+      </li>
+
+      <li class="img footer_bookmark">
+        <a href="bookmarks.html"
+          ><img
+            src="bookmark.html/Assets/Bookmark/bookmark_img.png"
+            alt="Bookmark page"
+            height="40px"
+        /></a>
+      </li>
+      <li class="img footer_add">
+        <a href="form.html"
+          ><img src="Assets/Form/add.png" alt="Add page" height="40px"
+        /></a>
+      </li>
+      <li class="img footer_profile">
+        <a href="profiles.html"
+          ><img
+            src="profile.html/Assets/profile.png"
+            alt="Profile page"
+            height="40px"
+        /></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="index.js" defer></script>
+</html>

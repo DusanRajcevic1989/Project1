@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -17,56 +18,20 @@
   top: 0px;
 }
 
-.myphoto {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 15px;
-}
-
-.basics {
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  display: flex;
-}
-.name {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-main {
+form {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
-p {
-  font-size: 20px;
+.submit {
+  width: 50px;
+  height: auto;
+  margin-top: 20px;
+  padding: 0%;
 }
 
-h3 {
-  font-size: 24px;
-}
-
-.counters {
-  height: 100px;
-}
-
-.toggle {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.toggle-dark-mode:checked {
-  background-color: black;
-}
-
-.dark {
-  background-color: black;
-  color: white;
+.user-input {
+  margin-bottom: 10px;
 }
 
 footer {
@@ -87,7 +52,6 @@ footer {
   height: 40px;
   display: flex;
 }
-
 .img {
   margin-left: 0px;
   padding-left: 0px;

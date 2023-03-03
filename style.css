@@ -1,5 +1,6 @@
 @import url("bookmark.html/bookmark.css");
 @import url("profile.html/profile.css");
+@import url("./form.css");
 
 * {
   box-sizing: border-box;
@@ -55,17 +56,21 @@ main {
 .button {
   justify-content: center;
   align-items: center;
-
+  transition: background-color 0.1s;
   border-radius: 20px;
   font-size: 25px;
 }
 
 .button:hover {
-  background-color: rgb(36, 216, 96);
+  background-color: rgb(230, 238, 233);
 }
 
 .button:active {
   color: rgb(226, 207, 207);
+}
+
+.question-answer.hidden {
+  visibility: hidden;
 }
 
 .bookmark {
@@ -79,7 +84,7 @@ main {
 
 .bookmark input {
   opacity: 0;
-  z-index: 3;
+  z-index: 0.5;
   inset: 0;
   position: absolute;
   cursor: pointer;
@@ -88,7 +93,7 @@ main {
 .bookmark .background-img {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 0.7;
   pointer-events: none;
   background-image: url("./Assets/Bookmark/bookmark.png");
   background-repeat: no-repeat;
@@ -131,6 +136,7 @@ footer {
   height: 60px;
   position: fixed;
   bottom: 0px;
+  z-index: 3;
 }
 
 .footer_img {
