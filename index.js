@@ -94,7 +94,7 @@ if (form) {
     input.setAttribute("aria-labelledby", "bookmark");
 
     const divImg = document.createElement("div");
-    div.classList.add("background-img");
+    divImg.classList.add("background-img");
 
     div.append(input, divImg);
     document.body.append(question);
