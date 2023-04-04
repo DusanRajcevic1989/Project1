@@ -1,6 +1,6 @@
 const darkToggle = document.querySelector("#toggle-dark-mode");
 const answerText = document.querySelector(".question-answer");
-const answerButton = document.querySelector(".button");
+const answerButtons = document.querySelectorAll(".button");
 const form = document.querySelector('[data-js="form"]');
 
 const questionElement = document.querySelector('[data-js="yourQuestion"]');
@@ -35,9 +35,11 @@ if (darkToggle) {
   });
 }
 
-if (answerButton) {
-  answerButton.addEventListener("click", () => {
-    answerText.classList.toggle("hidden");
+if (answerButtons) {
+  answerButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      answerText.classList.toggle("hidden");
+    });
   });
 }
 
